@@ -1,0 +1,2 @@
+from s2_codestructure_exercise.models.model import MyNeuralNet
+from s2_codestructure_exercise.predict_model import predict
