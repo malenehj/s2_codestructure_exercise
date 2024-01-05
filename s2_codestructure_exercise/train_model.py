@@ -1,12 +1,12 @@
 import click
 import torch
 from torch import nn
-from model import myawesomemodel
+from models.model import myawesomemodel
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-datapath = '/Users/fzv545/Documents/SODAS/PhD kurser/Machine Learning Operations (DTU)/s2_codestructure_exercise/data/'
-modelpath = '/Users/fzv545/Documents/SODAS/PhD kurser/Machine Learning Operations (DTU)/s2_codestructure_exercise/models/'
+datapath = './data/'
+modelpath = './models/'
 
 train_set = torch.load(datapath+'processed/processed_images_train.pt')
 test_set = torch.load(datapath+'processed/processed_images_test.pt')
