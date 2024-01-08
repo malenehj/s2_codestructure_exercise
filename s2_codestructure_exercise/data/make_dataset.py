@@ -4,7 +4,7 @@ if __name__ == '__main__':
     # Get the data and process it
     """Return train and test dataloaders for MNIST."""
 
-    datapath = '/Users/fzv545/Documents/SODAS/PhD kurser/Machine Learning Operations (DTU)/s2_codestructure_exercise/data/'
+    datapath = './data/'
 
     train_data, train_labels = [ ], [ ]
     for i in range(5):
