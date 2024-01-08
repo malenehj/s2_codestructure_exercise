@@ -37,11 +37,3 @@ if __name__ == '__main__':
 
     torch.save(train_set,datapath+'processed/processed_images_train.pt')
     torch.save(test_set,datapath+'processed/processed_images_test.pt')
-
-    #batch_size = 256
-
-    #train_dataloader = torch.utils.data.DataLoader(train_set, batch_size=batch_size)
-    #test_dataloader = torch.utils.data.DataLoader(test_set, batch_size=batch_size)
-    
-    #torch.save(train_dataloader,datapath+'processed/processed_images_train.pt')
-    #torch.save(test_dataloader, datapath+'processed/processed_images_test.pt')
